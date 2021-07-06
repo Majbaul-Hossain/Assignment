@@ -6,7 +6,7 @@ body{
 }
 section{
     margin-bottom: 80px;
-    background-color: #e9e7e7;
+    background-color: #f0efef;
 }
 #diet_chart{
     display: flex;
@@ -89,4 +89,48 @@ section{
 .container{
     width: 1170px;
     margin: auto;
+}
+.recipi_txt h1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 35px;
+    color: #505050;
+}
+.recipi_txt p {
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 25px;
+}
+.recipi_txt {
+    padding: 20px 0px;
+}
+.recipe_wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px 5px;
+}
+.rcp_boxes{
+    width: 350px;
+    /* border: 1px solid black; */
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 15px 10px 20px #847f7f;
+}
+.rcp_image img{
+    width: 100%;
+    border-radius: 15px;
+}
+.rcp_text h2 {
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+.rcp_text p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #4c4b4b;
+    padding: 10px 0px;
+    padding-bottom: 15px;
+    padding-top: 10px;
 }
