@@ -6,7 +6,7 @@ body{
 }
 section{
     margin-bottom: 80px;
-    background-color: #f0efef;
+    background-color: #ffffff;
 }
 #diet_chart{
     display: flex;
@@ -85,6 +85,7 @@ section{
     font-size: 18px;
     color: white;
     text-decoration: none;
+    cursor: grab;
 }
 .container{
     width: 1170px;
@@ -111,7 +112,6 @@ section{
 }
 .rcp_boxes{
     width: 350px;
-    /* border: 1px solid black; */
     padding: 20px;
     background: white;
     border-radius: 20px;
@@ -133,4 +133,77 @@ section{
     padding: 10px 0px;
     padding-bottom: 15px;
     padding-top: 10px;
+}
+.social_Subs h1 {
+    font-size: 50px;
+}
+
+.social_Subs span {
+    font-size: 25px;
+}
+.social_media_wrapper{
+    background-color: white;
+    box-shadow: 10px 0px 25px grey;
+    border-radius: 10px;
+}
+section#social_media {
+    padding-top: 50px;
+}
+.abtUS_wrapper{
+    display: flex;
+}
+.about_usBox{
+    width: 40%;
+    padding: 0px 185px;
+    color: #adaaaa;
+    font-family: arial;
+}
+.web_name {
+    text-align: center;
+    margin: 25px 0px;
+    margin-bottom: 40px;
+    padding-top: 24px;
+}
+
+.web_name h2 {
+    font-size: 35px;
+    word-spacing: 10px;
+    font-family: math;
+    color: #716e6e;
+}
+
+.orange-color {
+    color: #ff3c3c;
+}
+
+footer.footr_area {
+    background: black;
+    color: white;
+}
+
+.about_usBox h3 {
+    font-size: 25px;
+    padding: 10px 0px;
+}
+
+.about_usBox p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 22px;
+}
+
+.copy_txt {
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 20px;
+    font-family: arial;
+    color: #b5b5b5;
+}
+.about_usBox a{
+    text-decoration: none;
+    color: #adaaaa;
+    border: 1px solid tomato;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 14px;
 }
